@@ -1,5 +1,2 @@
-#Gitcourse
-QUALQUER COISA
-Eu só queria saber usar o Github...
-Alguma frase aleatória
-Só algeria
+Teste para verificar se sei mudar arquivo
+from sklearn.ensemble import RandomForestRegressor
