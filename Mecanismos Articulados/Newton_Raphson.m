@@ -7,17 +7,17 @@ u =1.1;
 v = 0.6;
 w = 0.22;
 r = 0.2;
-%w = 100; %isso È a velociade de theta
+%w = 100; %isso √© a velociade de theta
 theta0 = pi*0.6;
 vel_theta = -pi*(10/3);
 
 N_it = 10; %numero de iteracoes
-e  = 0.001; %m·ximo admissivel para zero de funcao
-Dr = 1 ; % avaliar convergencia da soluÁ„o
+e  = 0.001; %m√°ximo admissivel para zero de funcao
+Dr = 1 ; % avaliar convergencia da solu√ß√£o
 %INTERVALO DE RODAR O PROGRAMA
 Tfinal = 60; %60 segundos
 dt = 0.1; %frames a cada um segundo
-k = 1; % inicializador da iteraÁ„o
+k = 1; % inicializador da itera√ß√£o
 Fx  =1; % inicializador de zero da funcao
 %vetores contendo os valores
 theta =[];
@@ -52,7 +52,7 @@ for i=1:Tfinal/dt
 end
 
 %-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-%-------------PLOTAR AS BARRAS PARA FAZER UMA ANIMA«√O --------------------
+%-------------PLOTAR AS BARRAS PARA FAZER UMA ANIMA√á√ÉO --------------------
 M =[];
 M(:,1) = xx';
 M(:,2) = y';
